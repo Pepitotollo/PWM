@@ -151,6 +151,19 @@
         width: 100px;
     }
 
+    .seccion1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .espacio{
+        width: 100px;
+        height: 100px;
+        background-color: #ccc;
+    }
+
 }
 
 
