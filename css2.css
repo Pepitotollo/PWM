@@ -1,352 +1,71 @@
-/* 640 to 960 pixels */
-@media screen and (min-width: 40em) {
 
-a#bajo{
-  color:#51d1f6;
-  font-size: 48px;
-  line-height: 550px;
 
-}
-a#bajo2{
-  color:#51d1f6;
-  font-size: 24px;
-  line-height: 350px;
-
+p {
+    margin-bottom: 18px;
 }
 
-
-#header {
- display: inline;
-
+a {
+    color: #315a6c;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-#headerRight{
- margin: 60px 20px 25px 0;
-
-
+a:hover {
+    color: #6a94a7;
+    text-decoration: underline;
 }
 
-#container {
-  margin: 0 auto;
-  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  line-height:16px;
-  text-decoration: none;
+a:visited {
+    color: #8f8d66;
 }
-#containerRight{
- margin: 50px 0 10px 35px;
- background: #FFFFFF url(images/Vende.jpg);
- width:600px;
- height: 300px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
+a#negro{
 
-}
-
-#containerLeft{
- margin: 100px 0 0 35px;
- background: #FFFFFF url(images/Compra.jpg);
- width:600px;
- height: 300px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
-
-}
-#nav li{
-  list-style: none;
-  margin: 20;
-  vertical-align: text-top;
-  display: inline;  
-  border: 2px solid #000000;
-  font-size: 24px;
- 
-
-}
-#header1 {
- display: inline;
-
-}
-#headerLeft1{
- margin: 0 0 0 10px;
- background: #FFFFFF;
- float:left;
- width:0;
- height:0;
-
-}
-#headerRight1{
- margin: 0 10px 0 0;
- background: #FFFFFF;
- float:right;
- height:0;
- weight: 200;
-
-}
-#containercomp{
- font-family: Georgia, Times, serif;
- color: #000000;
-}
-#containerUp1{
- margin: 300px 0 10px 30px;
- width:350px;
- height: 200px;
- background: #FFFFFF url(images/deportes.jpg);
- text-align:left;
- float:left;
-
-}
-#containerUp2{
- margin: 300px 30px 0 0;
- background: #FFFFFF url(images/ropa.jpg);
- width:350px;
- height: 200px;
- text-align:left;
- float:right;
- 
-}
-#containerUp3{
- 
- background: #FFFFFF url(images/libro.jpg);
- margin: 100px 30px 0 0;
- width:350px;
- height: 200px;
- text-align:left;
- float:right;
-}
-#containerUp4{
- margin: 90px 0 10px 30px;
- background: #FFFFFF url(images/electronica.jpg);
- width:350px;
- height: 200px;
- text-align:left;
- float:left;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px 20px 20px 20px;
 
 }
 
 
-#nav1 {
-  padding: 10px 10px;
-  margin-left: 50px;
-  margin-right:1000 px;
-  font-family: Georgia, Times, serif;
-  font-weight: bold;
+a#blanco{
+    color: #FFFFFF;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 20px 20px 20px 20px;
 
 }
-#nav1 li{
-  list-style: none;
-  margin: 20;
-  vertical-align: middle;
-  display: inline;  
 
-
+input#inicio{
+    margin-top: 50px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
 }
+input#registro{
+    margin-top: 50px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+
+
 #headerInicio{
-  margin-top: 100px;
-  font-size: 48px;
-  line-height:24px;
-  font-weight: bold;
-  font-family: Georgia, Times, serif;
+    margin-top: 30px;
+    font-size: 22px;
+    line-height:24px;
+    font-weight: bold;
+    font-family: Georgia, Times, serif;
 }
 
 #containerInicio{
-  font-size: 30px;
-  
-  margin-top: 30; 
-  line-height : 100px;
- 
-}
-input{
-  font-size: 24px;
-}
-}
+    font-size: 22px;
 
+    margin-top: 30;
+    line-height : 80px;
 
-
-/* under 640 px */
-@media screen and (max-width: 40em ) {
-
-a#bajo{
-  color:#51d1f6;
-  font-size: 24px;
-  line-height: 250px;
-
-}
-a#bajo2{
-  color:#51d1f6;
-  font-size: 24px;
-  line-height: 250px;
-
-}
-
-#header {
- display: inline;
-
-}
-#headerLeft{
- margin: 0 0 0 40px;
- background: #FFFFFF;
- float:left;
- width:30px;
- height:15px;
-
-}
-#headerRight{
- margin: 150px 10px 0 0;
- background: #FFFFFF;
- float:right;
- height:0;
-
-}
-
-#container {
-  margin: 0 auto;
-  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  line-height:16px;
-  text-decoration: none;
-}
-#containerRight{
- margin: 50px 0 10px 35px;
- background: #FFFFFF url(images/Vende.jpg);
- width:300px;
- height: 150px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
-
-}
-
-#containerLeft{
- margin: 100px 0 0 35px;
- background: #FFFFFF url(images/Compra.jpg);
- width:300px;
- height: 150px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
-
-}
-#nav li{
-  list-style: none;
-  margin: 20;
-  vertical-align: text-top;
-  display: inline;  
-  border: 2px solid #000000;
-  font-size: 12px;
- 
-
-}
-
-#header1 {
- display: inline;
-
-}
-#headerLeft1{
- margin: 0 0 0 40px;
- background: #FFFFFF;
- float:left;
- width:0;
- height:0;
-
-}
-#headerRight1{
- margin: 150px 10px 0 0;
- background: #FFFFFF;
- float:right;
- height:0;
-
-}
-#containercomp{
- font-family: Georgia, Times, serif;
- color: #000000;
-}
-#containerUp1{
- margin: 200px 0 0 40px;
- background: #FFFFFF url(images/deportes.jpg);
- width:275px;
- height: 150px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
-
-
-}
-#containerUp2{
- margin: 50px 0 0 40px;
- background: #FFFFFF url(images/ropa.jpg);
- width:275px;
- height: 150px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
- 
-}
-#containerUp3{
- 
- margin: 50px 0 0 40px;
- background: #FFFFFF url(images/libro.jpg);
- width:275px;
- height: 150px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
-}
-#containerUp4{
- margin: 50px 0 20px 40px;
- background: #FFFFFF url(images/electronica.jpg);
- width:275px;
- height: 150px;
- float: left;
- text-align: left;
- border: 1px solid #000000;
- text-decoration: none;
-
-}
-#nav1 {
-  padding: 10px 10px;
-  margin-left: 0;
-  margin-right:0;
-  font-family: Georgia, Times, serif;
-  font-weight: bold;
-
-}
-#nav1 li{
-  list-style: none;
-  margin: 10;
-  vertical-align: text-top;
-  display: inline;  
-  border: 2px solid #000000;
-  font-size: 12px;
- 
-
-}
-#navaux {
-  padding: 10px 10px;
-  margin-left: 25px;
-  font-family: Georgia, Times, serif;
-  font-weight: bold;
-
-}
-#navaux li{
-  list-style: none;
-  margin: 10;
-  vertical-align: middle;
-  display: inline;  
-
-
-}
-
-#headerInicio{
-  margin-top: 50px;
-  font-size: 30px;
-}
 }
