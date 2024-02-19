@@ -1,0 +1,177 @@
+/* 1 em = 16 px */
+
+/* minimo 1015 pixels de ancho*/
+@media screen and (min-width: 63.4375em) {
+
+    body{
+        height: 100%;
+
+        margin: 0px;
+        margin-top: 0px;
+        font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        font-size: 1.125em;
+
+    }
+
+    /*header y sus subheaders*/
+    header{
+        height: 24.835%; 
+        width: 100%;
+        margin: 0 0 0 0;
+        background-color: #000000b8;
+        
+        
+    }
+    #header_left{
+        width: 15.5%;
+        height: 100%;
+        float: left;
+    }
+    #header_mid{
+        position: relative;
+        height: 100%;
+        left: 0;
+        right: 17.5%;
+        width: 69%;
+        float: left;
+    }
+    #header_top{
+        position: relative;
+        height: 50%;
+        left: 0;
+        width: 100%;
+        aspect-ratio: 6/10;
+        
+    }
+    #header_bot{
+        left: 0;
+        width: 100%;
+        position: relative;
+        height: 50%;
+    }
+    #header_right{
+        width: 15.5%;
+        height: 100%;
+        float: right;
+    }
+
+
+    /*Imagenes del header*/
+    #logo{
+        margin-left: 15%;
+        /*intentar poner dimension
+        */
+        object-fit: cover;
+        width: 60%;
+        height: 100%;
+        
+    }
+    #logo2{
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 80%;
+        height: 80%;
+    }
+
+    /*botones de header top y bot*/
+    a{
+        color:#ffffff;
+        text-decoration: none;
+    }
+    a.button{
+        padding: 0 5%;
+    }
+    a.button2{
+        padding: 0 4%;
+    }
+
+
+    /*imput*/
+    #search{
+        background-color:rgba(0, 0, 0, 0);
+        text-decoration: #ffffff;
+        border-radius: 5px;
+        outline: none;
+        color:rgba(255, 255, 255, 0.6);
+        font-size: 18px;
+    }
+    ::placeholder{
+        font-size: 18px;
+
+        color: rgba(255, 255, 255, 0.6);
+        }
+
+
+    /*Navs de los headers*/
+    nav {
+        display:flex;
+        justify-content: space-around;
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        top: 26.85%;
+        display: inline;  
+        height: 100%;
+        width: 100%;
+    }
+
+
+    main{
+
+        height: 10000px;
+        width: 100%;
+        margin: 0 0 0 0;
+
+    }
+    footer{
+        height: 24.835%; 
+        width: 100%;
+        margin: 0 0 0 0;
+        background-color: #000000b8;
+        position: absolute;
+
+
+        
+    }
+    #navFooter{
+        top: 45%;
+        left: 20%;
+        position: relative;
+
+
+    }
+    
+    a.buttonFooter{
+        padding: 0 5%;
+
+    }
+  
+    .contenedor{
+        height: 100px;
+        width: 100px;
+    }
+    a.niga{
+        color: #000000;
+    }
+
+}
+
+
+
+
+/* maximo 1015 pixels de ancho*/
+@media screen and (max-width: 63.4375em) {
+    body{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(255, 0, 0);
+
+    }
+
+
+}
+
+

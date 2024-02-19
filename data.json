@@ -1,0 +1,7 @@
+{
+    "datos" : [
+    {"clave" : "trabajo/images/logo.png", "valor" : "Pueba de Json"},
+    {"clave" : "trabajo/images/logo.png", "valor" : "Prueba 2 de JSon"}
+    
+    ]
+}
