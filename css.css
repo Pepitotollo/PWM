@@ -6,8 +6,7 @@
     body{
         height: 100%;
 
-        margin: 0px;
-        margin-top: 0px;
+        margin: 0;
         font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
         font-size: 1.125em;
 
@@ -104,7 +103,6 @@
 
     /*Navs de los headers*/
     nav {
-        display:flex;
         justify-content: space-around;
         text-align: center;
         vertical-align: middle;
@@ -151,7 +149,7 @@
         width: 100px;
     }
 
-    .seccion1{
+    .seccion{
         height: 25%;
         width: 100%
     }
