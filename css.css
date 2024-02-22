@@ -171,6 +171,7 @@
         list-style-type: none;
         width: 50%;
         font-size: 25px;
+        width: 100%;
 
     }
     .item{
@@ -187,6 +188,23 @@
         border-radius: 20px;
         display: inline-block;
         background-color: #ffffff;
+        text-align: center;
+        font-size: 24px;
+
+
+    }
+    .lista{
+        margin-top: 10%;
+        width: 50%;
+        float:right;
+
+
+    }
+    #estado{
+        margin-top: 10%;
+        float: left;
+        width: 50%;
+
     }
 
 }
