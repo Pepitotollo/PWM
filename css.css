@@ -53,6 +53,9 @@
         height: 100%;
         float: right;
     }
+    .center{
+        text-align:center
+    }
 
 
     /*Imagenes del header*/
@@ -205,6 +208,15 @@
         float: left;
         width: 50%;
 
+    }
+    .login-button img {
+        width: 150px; /* ajusta el ancho según sea necesario */
+        height: auto; /* ajusta la altura de forma automática para mantener la proporción */
+        border-radius: 5px; /* añade esquinas redondeadas */
+    }
+
+    .login-button:hover img {
+        opacity: 0.8; /* reduce la opacidad al pasar el ratón por encima para dar un efecto de transparencia */
     }
 
 }
