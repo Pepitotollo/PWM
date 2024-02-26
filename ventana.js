@@ -9,3 +9,4 @@ btnAbrirModal.addEventListener("click", ()=>{
 btnCerrarModal.addEventListener("click", ()=>{
     modal.clode();
 })
+
