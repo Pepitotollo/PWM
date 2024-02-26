@@ -16,7 +16,7 @@
 
 <main>
     <div class="center">
-        <h1 id="titulo"></h1> <!-- El id permite identificar fácilmente este elemento -->
+        <h1 id="titulo">cambiar</h1> <!-- El id permite identificar fácilmente este elemento -->
     </div>
     <section class="seccion" xlu-include-file="section.html">
 
@@ -46,7 +46,18 @@
 <script>
 
     xLuIncludeFile();
-    document.getElementById('titulo').textContent = "Arte";
+    // Obtener la cadena de consulta de la URL
+    var queryString = window.location.search;
+
+    // Crear un objeto URLSearchParams para trabajar con los parámetros
+    var urlParams = new URLSearchParams(queryString);
+
+    // Obtener el valor de la variable
+    var variableValor = urlParams.get('valor');
+
+    // Hacer algo con la variable
+    document.getElementById('titulo').innerText = variableValor;
+
 </script>
 
 </body>
