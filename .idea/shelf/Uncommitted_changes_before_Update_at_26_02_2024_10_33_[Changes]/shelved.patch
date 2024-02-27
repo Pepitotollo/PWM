@@ -1,0 +1,64 @@
+Index: ventana.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>const btnAbrirModal = document.querySelector(\"#btn-abrir-modal\");\r\nconst btnCerrar = document.querySelector(\"#btn-cerrar-modal\");\r\nconst modal = document.querySelector(\"#modal\");\r\n\r\nbtnAbrirModal.addEventListener(\"click\", ()=>{\r\n    modal.showModal();\r\n})\r\n\r\nbtnCerrarModal.addEventListener(\"click\", ()=>{\r\n    modal.clode();\r\n})
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ventana.js b/ventana.js
+--- a/ventana.js	(revision 93caed46d6cb35a800febb3efcda0542efb288f5)
++++ b/ventana.js	(date 1708600470580)
+@@ -8,4 +8,5 @@
+ 
+ btnCerrarModal.addEventListener("click", ()=>{
+     modal.clode();
+-})
+\ No newline at end of file
++})
++
+Index: css.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* 1 em = 16 px */\r\n\r\n/* minimo 1015 pixels de ancho*/\r\n@media screen and (min-width: 63.4375em) {\r\n\r\n    body{\r\n        height: 100%;\r\n\r\n        margin: 0;\r\n        font-family: \"Trebuchet MS\", Verdana, Arial, Helvetica, sans-serif;\r\n        font-size: 1.125em;\r\n\r\n    }\r\n\r\n    /*header y sus subheaders*/\r\n    header{\r\n        height: 24.835%; \r\n        width: 100%;\r\n        margin: 0 0 0 0;\r\n        background-color: #000000b8;\r\n        \r\n        \r\n    }\r\n    #header_left{\r\n        width: 15.5%;\r\n        height: 100%;\r\n        float: left;\r\n    }\r\n    #header_mid{\r\n        position: relative;\r\n        height: 100%;\r\n        left: 0;\r\n        right: 17.5%;\r\n        width: 69%;\r\n        float: left;\r\n    }\r\n    #header_top{\r\n        position: relative;\r\n        height: 50%;\r\n        left: 0;\r\n        width: 100%;\r\n        aspect-ratio: 6/10;\r\n        \r\n    }\r\n    #header_bot{\r\n        left: 0;\r\n        width: 100%;\r\n        position: relative;\r\n        height: 50%;\r\n    }\r\n    #header_right{\r\n        width: 15.5%;\r\n        height: 100%;\r\n        float: right;\r\n    }\r\n\r\n\r\n    /*Imagenes del header*/\r\n    #logo{\r\n        margin-left: 15%;\r\n        /*intentar poner dimension\r\n        */\r\n        object-fit: cover;\r\n        width: 60%;\r\n        height: 100%;\r\n        \r\n    }\r\n    #logo2{\r\n        margin-left: 10%;\r\n        margin-top: 5%;\r\n        width: 80%;\r\n        height: 80%;\r\n    }\r\n\r\n    /*botones de header top y bot*/\r\n    a{\r\n        color:#ffffff;\r\n        text-decoration: none;\r\n    }\r\n    a.button{\r\n        padding: 0 5%;\r\n    }\r\n    a.button2{\r\n        padding: 0 4%;\r\n    }\r\n\r\n\r\n    /*imput*/\r\n    #search{\r\n        background-color:rgba(0, 0, 0, 0);\r\n        text-decoration: #ffffff;\r\n        border-radius: 5px;\r\n        outline: none;\r\n        color:rgba(255, 255, 255, 0.6);\r\n        font-size: 18px;\r\n    }\r\n    ::placeholder{\r\n        font-size: 18px;\r\n\r\n        color: rgba(255, 255, 255, 0.6);\r\n        }\r\n\r\n\r\n    /*Navs de los headers*/\r\n    nav {\r\n        justify-content: space-around;\r\n        text-align: center;\r\n        vertical-align: middle;\r\n        position: absolute;\r\n        top: 26.85%;\r\n        display: inline;  \r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n\r\n\r\n    main{\r\n\r\n        height: 1000px;\r\n        width: 100%;\r\n        margin: 0 0 0 0;\r\n\r\n    }\r\n    footer{\r\n        height: 24.835%; \r\n        width: 100%;\r\n        margin: 0 0 0 0;\r\n        background-color: #000000b8;\r\n        position: absolute;\r\n\r\n\r\n        \r\n    }\r\n    #navFooter{\r\n        top: 45%;\r\n        left: 20%;\r\n        position: relative;\r\n\r\n\r\n    }\r\n    \r\n    a.buttonFooter{\r\n        padding: 0 5%;\r\n\r\n    }\r\n  \r\n    .contenedor{\r\n        height: 100px;\r\n        width: 100px;\r\n    }\r\n\r\n    .seccion{\r\n        height: 25%;\r\n        width: 100%\r\n    }\r\n\r\n    .espacio{\r\n        width: 25%;\r\n        height: 100%; /* Ajusta la altura según sea necesario */\r\n        background-color: #ccc;\r\n\r\n    }\r\n    .contenedor_sec{\r\n        display: flex; /* Utiliza flexbox */\r\n        justify-content: space-around; /* Distribuye uniformemente los elementos a lo largo del contenedor */\r\n        align-items: center; /* Centra verticalmente los elementos dentro del contenedor */\r\n        height: 75%; /* Puedes ajustar la altura según sea necesario */\r\n    }\r\n    .productos{\r\n        background-color: #C4C4C4;\r\n        list-style-type: none;\r\n        width: 50%;\r\n        font-size: 25px;\r\n\r\n    }\r\n    .item{\r\n        color: rgba(0, 0, 0, 0.6);\r\n        margin: 1%;\r\n        border: 2px solid rgba(0, 0, 0, 0.6);\r\n        border-radius: 5px;\r\n        display: inline-block\r\n    }\r\n    .back{\r\n        color: rgba(0, 0, 0, 0.6);\r\n        margin: 1%;\r\n        border: 2px solid rgba(0, 0, 0, 0.6);\r\n        border-radius: 20px;\r\n        display: inline-block;\r\n        background-color: #ffffff;\r\n    }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n/* maximo 1015 pixels de ancho*/\r\n@media screen and (max-width: 63.4375em) {\r\n    body{\r\n        font-family: Verdana, Arial, Helvetica, sans-serif;\r\n        font-size: 18px;\r\n    }\r\n    a{\r\n        text-decoration: none;\r\n        color: rgb(255, 0, 0);\r\n\r\n    }\r\n\r\n\r\n}\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css.css b/css.css
+--- a/css.css	(revision 93caed46d6cb35a800febb3efcda0542efb288f5)
++++ b/css.css	(date 1708596746519)
+@@ -188,6 +188,15 @@
+         display: inline-block;
+         background-color: #ffffff;
+     }
++    .login-button img {
++        width: 150px; /* ajusta el ancho según sea necesario */
++        height: auto; /* ajusta la altura de forma automática para mantener la proporción */
++        border-radius: 5px; /* añade esquinas redondeadas */
++    }
++
++    .login-button:hover img {
++        opacity: 0.8; /* reduce la opacidad al pasar el ratón por encima para dar un efecto de transparencia */
++    }
+ 
+ }
+ 
+Index: header.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div id=\"header_left\"><img id =\"logo\" src=\"images/logo.png\"></div>\r\n<div id = \"header_mid\">\r\n    <div id = \"header_top\">\r\n        <nav>\r\n            <a class=\"button\" href=\"#\">Categorías</a>\r\n            <input id=\"search\" type=\"text\" size=\"40\" placeholder=\"Busca por marca, artista...\">\r\n            <a class=\"button\" href=\"#\">Vender</a>\r\n        </nav>\r\n    </div>\r\n    <div id = \"header_bot\">\r\n        <nav xlu-include-file=\"nav.html\">\r\n\r\n            <!--\r\n            <a class=\"button2\" href=\"#\">Arte</a>\r\n            <a class=\"button2\" href=\"#\">Joyas</a>\r\n            <a class=\"button2\" href=\"#\">Monedas y Joyas</a>\r\n            <a class=\"button2\" href=\"#\">Juguetes</a>\r\n            <a class=\"button2\" href=\"#\">Deporte</a>\r\n            -->\r\n\r\n        </nav>\r\n    </div>\r\n</div>\r\n<div id=\"header_right\"><img id =\"logo2\" src=\"images/inicio_sesion.png\"></div>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/header.html b/header.html
+--- a/header.html	(revision 93caed46d6cb35a800febb3efcda0542efb288f5)
++++ b/header.html	(date 1708601145102)
+@@ -21,4 +21,8 @@
+         </nav>
+     </div>
+ </div>
+-<div id="header_right"><img id ="logo2" src="images/inicio_sesion.png"></div>
++<div id="header_right">
++    <a href="inicio.html" class="login-button">
++        <img id ="logo2" src="images/inicio.png" alt="Iniciar Sesión">
++    </a>
++</div>

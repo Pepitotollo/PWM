@@ -1,0 +1,63 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an HTML5 example">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+
+    <script src="xlu-include-file.js"></script>
+
+
+    <link href="css.css" rel="stylesheet">
+    <title>PuM!</title>
+
+</head>
+<body>
+<header xlu-include-file="header.html"><!--header-->
+</header>
+
+<main>
+    <div class="center">
+        <h1 id="titulo">cambiar</h1> <!-- El id permite identificar fácilmente este elemento -->
+    </div>
+    <section class="seccion" xlu-include-file="section.html">
+
+    </section>
+
+    <section class="seccion" xlu-include-file="section.html">
+
+    </section>
+
+    <section class="seccion" xlu-include-file="section.html">
+
+    </section>
+
+
+</main>
+
+<footer xlu-include-file="footer.html">
+    <!--
+    <nav id="navFooter">
+      <a class="buttonFooter" href="#">Acerca de</a>
+      <a class="buttonFooter" href="#">Contáctanos</a>
+      <a class="buttonFooter" href="#">Polítca de Privacidad</a>
+    </nav>
+    -->
+</footer>
+
+<script>
+
+    xLuIncludeFile();
+    // Obtener la cadena de consulta de la URL
+    var queryString = window.location.search;
+
+    // Crear un objeto URLSearchParams para trabajar con los parámetros
+    var urlParams = new URLSearchParams(queryString);
+
+    // Obtener el valor de la variable
+    var variableValor = urlParams.get('valor');
+
+    // Hacer algo con la variable
+    document.getElementById('titulo').innerText = variableValor;
+
+</script>
+
+</body>
