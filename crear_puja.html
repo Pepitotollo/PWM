@@ -12,7 +12,6 @@
 
     <link href="css.css" rel="stylesheet">
     <title>PuM!</title>
-
 </head>
 <body>
     <header xlu-include-file="header.html"><!--header-->
@@ -20,7 +19,16 @@
 
     <main>
 
+            <form action="/procesar-datos" method="post">
+                <!-- Campos del formulario van aquí -->
+                <input type="text" name="nombre" placeholder="Nombre del producto">
+                <input type="text" name="precio" placeholder="Precio(€)">
+                <input type="text" name="categoria" placeholder="Categoria">
+                <input type="text" name="descripcion" placeholder="Descripcion del producto">
 
+
+                <input type="submit" value="Enviar">
+            </form>
     </main>
 
     <footer xlu-include-file="footer.html">
@@ -38,4 +46,5 @@
         xLuIncludeFile();
 
     </script>
+</body>
 </html>
