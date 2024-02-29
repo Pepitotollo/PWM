@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="modified">
-      <change afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registrarse/registrarse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section/section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Categoria/Categoria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Categoria/Categoria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear_puja/crear_puja.html" beforeDir="false" afterPath="$PROJECT_DIR$/crear_puja/crear_puja.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/inicio/inicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section.html" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.html" afterDir="false" />
-    </list>
+    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="añadir secccion 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,20 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "deivinot"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="6c535e5c-d7a9-4400-92d2-9fe4d664c62a" />
-        <option name="url" value="https://github.com/Pepitotollo/PWM.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -67,7 +39,6 @@
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.inicio.html.executor": "Run",
     "JavaScript Debug.nav.html.executor": "Run",
-    "JavaScript Debug.registrarse.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -81,11 +52,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\david\WebstormProjects\PWM\section" />
-      <recent name="C:\Users\david\WebstormProjects\PWM" />
-      <recent name="C:\Users\david\WebstormProjects\PWM\registrarse" />
-      <recent name="C:\Users\david\WebstormProjects\PWM\inicio" />
-      <recent name="C:\Users\david\WebstormProjects\PWM\crear_puja" />
+      <recent name="C:\Users\david\WebstormProjects\PWM\Categoria" />
+      <recent name="C:\Users\david\WebstormProjects\PWM\footer" />
+      <recent name="C:\Users\david\WebstormProjects\PWM\header" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -104,7 +73,7 @@
       <workItem from="1708595605169" duration="1337000" />
       <workItem from="1708600017476" duration="1280000" />
       <workItem from="1708943585473" duration="2653000" />
-      <workItem from="1709196620748" duration="5283000" />
+      <workItem from="1709196620748" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="añadir secccion 1">
       <option name="closed" value="true" />
@@ -146,15 +115,7 @@
       <option name="project" value="LOCAL" />
       <updated>1709197033641</updated>
     </task>
-    <task id="LOCAL-00006" summary="modified">
-      <option name="closed" value="true" />
-      <created>1709197136285</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709197136285</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +123,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadir secccion 1" />
-    <MESSAGE value="modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="añadir secccion 1" />
   </component>
 </project>
