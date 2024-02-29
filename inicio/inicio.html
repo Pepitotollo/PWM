@@ -8,7 +8,7 @@
  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
- <link href="css2.css" rel="stylesheet">
+ <link href="../css2.css" rel="stylesheet">
  <script>
     var form;
     function initiate(){
@@ -33,7 +33,7 @@
       
       if(valid){
 	 form.submit();
-         window.location.href = "./prueba.html";
+         window.location.href = "./index.html";
       }else if(elem.validity.valueMissing){
          alert('No ha introducido el email');
       }else if(elem.validity.typeMismatch){
@@ -80,7 +80,7 @@
 
       <center><input type="button" id = "inicio" value="Iniciar sesión"></center>
     </form>
-    <center> <a id = "blanco" href="./registrarse.html">¿No te has registrado aún?</a></center>
+    <center> <a id = "blanco" href="/PWM/registrarse/registrarse.html">¿No te has registrado aún?</a></center>
   
   </div>
 

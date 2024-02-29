@@ -1,0 +1,96 @@
+header{
+    height: 24.835%;
+    width: 100%;
+    margin: 0 0 0 0;
+    background-color: #000000b8;
+
+
+}
+#header_left{
+    width: 15.5%;
+    height: 100%;
+    float: left;
+}
+#header_mid{
+    position: relative;
+    height: 100%;
+    left: 0;
+    right: 17.5%;
+    width: 69%;
+    float: left;
+}
+#header_top{
+    position: relative;
+    height: 50%;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 6/10;
+
+}
+#header_bot{
+    left: 0;
+    width: 100%;
+    position: relative;
+    height: 50%;
+}
+#header_right{
+    width: 15.5%;
+    height: 100%;
+    float: right;
+}
+.center{
+    text-align:center
+}
+
+
+/*Imagenes del header*/
+#logo{
+    margin-left: 15%;
+    /*intentar poner dimension
+    */
+    object-fit: cover;
+    width: 60%;
+    height: 100%;
+
+}
+#logo2{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+}
+
+a.button{
+    padding: 0 5%;
+}
+a.button2{
+    padding: 0 4%;
+}
+
+/*imput*/
+#search{
+    background-color:rgba(0, 0, 0, 0);
+    text-decoration: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+}
+::placeholder{
+    font-size: 18px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*Navs de los headers*/
+nav {
+    justify-content: space-around;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 26.85%;
+    display: inline;
+    height: 100%;
+    width: 100%;
+}

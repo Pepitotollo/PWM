@@ -1,0 +1,122 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+ <title>Registrarse</title>
+ <script type="text/javascript" src=""></script>
+ <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <link href="../css2.css" rel="stylesheet" >
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    
+	
+    var form;
+    function initiate(){
+     
+      var button = document.getElementById("registro");
+      button.addEventListener("click", sendit);
+      form = document.querySelector("form[name='regis']");
+      form.addEventListener("invalid", validation, true);
+      form.addEventListener("input", checkval);
+    }
+    function validation(e){
+      var elem = e.target;
+      elem.style.background = '#FFDDDD';
+           
+    }
+
+    function sendit(){
+      var nombre = document.getElementById("nombre");
+      var apellido = document.getElementById("apellido");
+      var email = document.getElementById("email");
+      var contra = document.getElementById("contra");
+      var repContra = document.getElementById("repContra");
+      var numTelf = document.getElementById("numTelf");
+
+
+
+      var valid = form.checkValidity();
+      if(valid){
+	 form.submit();
+         window.location.href = "./index.html";
+      }else if(nombre.validity.valueMissing){
+         alert('No ha introducido el nombre');
+      }else if(nombre.validity.patternMismatch){
+         alert('El nombre tiene que tener dos o más letras');
+      }else if(apellido.validity.valueMissing){
+	 alert('No ha introducido el apellido');
+      }else if(apellido.validity.patternMismatch){
+         alert('El apellido tiene que tener dos o más letras');  
+      }else if(email.validity.valueMissing){
+	 alert('No ha introducido el Email');
+      }else if(email.validity.patternMismatch){
+         alert('El texto introducido no corresponde con el formato de un email');
+      }else if(contra.validity.valueMissing){
+	 alert('No ha introducido la contraseña');
+      }else if(contra.validity.tooShort){
+         alert('La contraseña es demasiado corta');  
+      }else if(repContra.validity.valueMissing){
+	 alert('No ha introducido la contraseña repetida');
+      }else if(repContra.validity.tooShort){
+         alert('La contraseña es demasiado corta');  
+      }else if(repContra.value != contra.value){
+	 alert('No coinciden las contraseñas introducidas');
+      }else if(numTelf.validity.valueMissing){
+	 alert('No ha introducido el número de teléfono');
+      }else if(numTelf.validity.patternMismatch){
+         alert('El número de telefono no respeta el formato');  
+      }
+      
+    }    
+    function checkval(e){
+      var elem = e.target;
+      if(elem.validity.valid){
+        elem.style.background = '#FFFFFF';
+
+      }
+      else if(repContra.value != contra.value){
+	 elem.style.background = '#FFDDDD';
+      }
+      else{
+        elem.style.background = '#FFDDDD';
+
+        
+      }
+    }
+
+
+
+    addEventListener("load", initiate);
+    
+    
+  </script>
+</head>
+
+<body>
+
+  <div id="headerInicio"><!--container goes here-->
+    <center>Registrarse</center>
+  </div>
+
+  <div id="containerInicio">
+    <form name="regis" method="get" action="">
+    <center>Nombre</center>
+    <center><input type="text" size="40" pattern = "[A-Za-z]{2,}" maxlength="20" placeholder ="Introduzca el nombre" name="nombre" id = "nombre" required></center>
+    <center>Apellidos</center>
+    <center><input type="text" size="40" pattern = "[A-Za-z]{2,}" maxlength="30" placeholder ="Introduzca su apellido" name="apellido" id = "apellido" required></center>
+    <center>Email</center>
+    <center><input type="email" size="40" maxlength="30" placeholder ="Introduzca Email" name="email" id = "email" required></center>
+    <center>Introducir Contraseña</center>
+    <center><input type="password" size="40" minlength = "6" maxlength="30" placeholder ="Introduzca Contraseña" name="contraseña" id = "contra" required></center>
+    <center>Repetir contraseña</center>
+    <center><input type="password" size="40" minlength = "6" maxlength="30" placeholder ="Introduzca Contraseña" name="repetirContraseña" id = "repContra" required></center>
+    <center>Número de teléfono</center>
+    <center><input type="text" size="40" pattern = "[0-9]{9,9}" maxlength="30" placeholder="Introduzca Número de teléfono" name="numeroTelf" id = "numTelf" required></center>
+    <center><input type="button" id = "registro" value="Registrarse"></center>
+   </form>
+  </div>
+
+</body>
+
+</html>

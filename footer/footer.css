@@ -1,0 +1,22 @@
+footer{
+    height: 24.835%;
+    width: 100%;
+    margin: 0 0 0 0;
+    background-color: #000000b8;
+    position: absolute;
+
+
+
+}
+#navFooter{
+    top: 45%;
+    left: 20%;
+    position: relative;
+
+
+}
+
+a.buttonFooter{
+    padding: 0 5%;
+
+}
