@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="separar por directorios" />
+    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="modified">
+      <change afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registrarse/registrarse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section/section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Categoria/Categoria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Categoria/Categoria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crear_puja/crear_puja.html" beforeDir="false" afterPath="$PROJECT_DIR$/crear_puja/crear_puja.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/inicio/inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section.html" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +104,7 @@
       <workItem from="1708595605169" duration="1337000" />
       <workItem from="1708600017476" duration="1280000" />
       <workItem from="1708943585473" duration="2653000" />
-      <workItem from="1709196620748" duration="5587000" />
+      <workItem from="1709196620748" duration="5283000" />
     </task>
     <task id="LOCAL-00001" summary="añadir secccion 1">
       <option name="closed" value="true" />
@@ -140,15 +154,7 @@
       <option name="project" value="LOCAL" />
       <updated>1709197136285</updated>
     </task>
-    <task id="LOCAL-00007" summary="separar por directorios">
-      <option name="closed" value="true" />
-      <created>1709201993414</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1709201993414</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +163,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadir secccion 1" />
     <MESSAGE value="modified" />
-    <MESSAGE value="separar por directorios" />
-    <option name="LAST_COMMIT_MESSAGE" value="separar por directorios" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
 </project>
