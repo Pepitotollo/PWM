@@ -7,18 +7,22 @@
     <meta name="description" content="This is an HTML5 example">
     <meta name="keywords" content="HTML5, CSS3, JavaScript">
 
-    <script src="xlu-include-file.js"></script>
+    <script src="../xlu-include-file.js"></script>
 
 
-    <link href="css.css" rel="stylesheet">
+    <link href="/PWM/css.css" rel="stylesheet">
+    <link href="/PWM/estado_puja/estado_puja.css" rel="stylesheet">
+
+    <link href="/PWM/footer/footer.css" rel="stylesheet">
+    <link href="/PWM/header/header.css" rel="stylesheet">
     <title>PuM!</title>
 
 </head>
 <body>
-    <header xlu-include-file="header.html"><!--header-->
+    <header xlu-include-file="/PWM/header/header.html"><!--header-->
     </header>
 
-    <main>
+    <main style="main{height: 200px};"}>
         <h1 id="estado">Estado de las Pujas</h1>
         <div class="lista">
             <center><button name="button" class= back type="button">Volver atrás</button></center>
@@ -34,7 +38,7 @@
 
     </main>
 
-    <footer xlu-include-file="footer.html">
+    <footer xlu-include-file="/PWM/footer/footer.html">
         <!--
         <nav id="navFooter">
           <a class="buttonFooter" href="#">Acerca de</a>
