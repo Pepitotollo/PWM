@@ -1,7 +1,4 @@
-
-
-
-    body {
+    #crear{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -9,10 +6,9 @@
         height: 100vh;
         margin: 0;
     }
-
-    main {
-        width: 300px; /* Ajusta el ancho según tus preferencias */
-        margin-top: 20px; /* Espacio entre el header y el formulario */
+    #div_crear{
+        width: 300px; /* Ajusta el ancho según tus preferencias /
+    margin-top: 20px; / Espacio entre el header y el formulario */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -25,11 +21,15 @@
         border-radius: 5px;
     }
 
-    input {
+    .puja {
         width: 100%;
         margin-bottom: 10px;
         padding: 8px;
         box-sizing: border-box;
+    }
+    .puja::placeholder{
+        color: rgba(0, 0, 0, 0.6);
+
     }
 
     input[type="submit"] {

@@ -7,28 +7,34 @@
     <meta name="description" content="This is an HTML5 example">
     <meta name="keywords" content="HTML5, CSS3, JavaScript">
 
-    <script src="../xlu-include-file.js"></script>
+    <script src="/PWM/xlu-include-file.js"></script>
 
-
+    <link href="/PWM/header/header.css" rel="stylesheet">
     <link href="/PWM/css.css" rel="stylesheet">
+
+    <link href="/PWM/footer/footer.css" rel="stylesheet">
+    <link href="/PWM/crear_puja/crear_puja.css" rel="stylesheet">
+
+
     <title>PuM!</title>
 </head>
 <body>
     <header xlu-include-file="/PWM/header/header.html"><!--header-->
     </header>
 
-    <main>
-
+    <main id="crear">
+        <div id="div_crear">
             <form action="/procesar-datos" method="post">
                 <!-- Campos del formulario van aquí -->
-                <input type="text" name="nombre" placeholder="Nombre del producto">
-                <input type="text" name="precio" placeholder="Precio(€)">
-                <input type="text" name="categoria" placeholder="Categoria">
-                <input type="text" name="descripcion" placeholder="Descripcion del producto">
+                <input class="puja" type="text" name="nombre" placeholder="Nombre del producto">
+                <input class="puja" type="text" name="precio" placeholder="Precio(€)">
+                <input class="puja" type="text" name="categoria" placeholder="Categoria">
+                <input class="puja" type="text" name="descripcion" placeholder="Descripcion del producto">
 
 
-                <input type="submit" value="Enviar">
+                <input class="puja" type="submit" value="Enviar">
             </form>
+        </div>
     </main>
 
     <footer xlu-include-file="../footer/footer.html">

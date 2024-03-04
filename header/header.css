@@ -68,7 +68,7 @@ a.button2{
 }
 
 /*imput*/
-#search{
+input.search{
     background-color:rgba(0, 0, 0, 0);
     text-decoration: #ffffff;
     border-radius: 5px;
