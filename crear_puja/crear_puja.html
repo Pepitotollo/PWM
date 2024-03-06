@@ -22,18 +22,23 @@
     <header xlu-include-file="/PWM/header/header.html"><!--header-->
     </header>
 
-    <main id="crear">
-        <div id="div_crear">
-            <form action="/procesar-datos" method="post">
-                <!-- Campos del formulario van aquí -->
-                <input class="puja" type="text" name="nombre" placeholder="Nombre del producto">
-                <input class="puja" type="text" name="precio" placeholder="Precio(€)">
-                <input class="puja" type="text" name="categoria" placeholder="Categoria">
-                <input class="puja" type="text" name="descripcion" placeholder="Descripcion del producto">
+    <main>
+
+        <div id="container">
+            <div id="titulo">Creando tu Puja</div>
+            <div id="subir">Subir Imagen</div>
+            <div id="div_crear">
+                <form action="/procesar-datos" method="post">
+                    <!-- Campos del formulario van aquí -->
+                    <input class="puja" type="text" name="nombre" placeholder="Nombre del producto">
+                    <input class="puja" type="text" name="precio" placeholder="Precio(€)">
+                    <input class="puja" type="text" name="categoria" placeholder="Categoria">
+                    <input class="puja" type="text" name="descripcion" placeholder="Descripcion del producto">
 
 
-                <input class="puja" type="submit" value="Enviar">
-            </form>
+                    <input class="puja" type="submit" value="Enviar">
+                </form>
+            </div>
         </div>
     </main>
 

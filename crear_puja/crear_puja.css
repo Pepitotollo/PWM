@@ -1,19 +1,33 @@
-    #crear{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
+    #titulo{
+        float: left;
+        margin-left: 32%;
+        font-size: 25px;
+        width: 8%;
+        align-content: center;
+        position: absolute;
+    }
+    #container{
+        margin-top: 7%
+    }
+    #subir{
+        margin-top: 5%;
+        width: 450px;
+        height: 20%;
+        margin-left: 20%;
+        background: gray;
+        position: absolute;
+        color:white;
+        text-align: center;
     }
     #div_crear{
-        width: 300px; /* Ajusta el ancho según tus preferencias /
-    margin-top: 20px; / Espacio entre el header y el formulario */
+        width: 300px; /* Ajusta el ancho según tus preferencias */
+        margin-left: 55%;
+        /*margin-top: 10%; /* Espacio entre el header y el formulario */
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: absolute;
     }
-
     form {
         width: 100%;
         padding: 20px;
@@ -36,4 +50,7 @@
         background-color: #4CAF50;
         color: white;
         cursor: pointer;
+    }
+    main{
+        height: 350px;
     }
