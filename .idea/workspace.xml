@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="modificar">
+    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="tocar crear puja">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear_puja/crear_puja.css" beforeDir="false" afterPath="$PROJECT_DIR$/crear_puja/crear_puja.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear_puja/crear_puja.html" beforeDir="false" afterPath="$PROJECT_DIR$/crear_puja/crear_puja.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Categoria/Categoria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Categoria/Categoria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/nav/nav.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,32 +26,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;deivinot&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6c535e5c-d7a9-4400-92d2-9fe4d664c62a" />
+        <option name="url" value="https://github.com/Pepitotollo/PWM.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2caJDcdw6W1I6Ygf47JBCn3M2JJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.crear_puja.html.executor": "Run",
-    "JavaScript Debug.header.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.inicio.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Categoria.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.crear_puja.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.footer.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.inicio.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.nav.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.registrarse.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\WebstormProjects\PWM\nav" />
+      <recent name="C:\Users\david\WebstormProjects\PWM\estado_puja" />
+      <recent name="C:\Users\david\WebstormProjects\PWM\section" />
+      <recent name="C:\Users\david\WebstormProjects\PWM" />
+      <recent name="C:\Users\david\WebstormProjects\PWM\registrarse" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,6 +96,7 @@
       <workItem from="1708595605169" duration="1337000" />
       <workItem from="1708600017476" duration="1280000" />
       <workItem from="1708943585473" duration="2653000" />
+      <workItem from="1709196620748" duration="5283000" />
     </task>
     <task id="LOCAL-00001" summary="añadir secccion 1">
       <option name="closed" value="true" />
@@ -100,7 +130,31 @@
       <option name="project" value="LOCAL" />
       <updated>1708946238980</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="añadir secccion 1">
+      <option name="closed" value="true" />
+      <created>1709197033640</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709197033641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modified">
+      <option name="closed" value="true" />
+      <created>1709197136285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709197136285</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tocar crear puja">
+      <option name="closed" value="true" />
+      <created>1709551760852</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709551760852</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +162,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadir secccion 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadir secccion 1" />
+    <MESSAGE value="modified" />
+    <MESSAGE value="separar por directorios" />
+    <MESSAGE value="tocar crear puja" />
+    <option name="LAST_COMMIT_MESSAGE" value="tocar crear puja" />
   </component>
 </project>
