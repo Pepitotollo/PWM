@@ -8,5 +8,5 @@
     display: flex; /* Utiliza flexbox */
     justify-content: space-around; /* Distribuye uniformemente los elementos a lo largo del contenedor */
     align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
-    height: 75%; /* Puedes ajustar la altura según sea necesario */
+    height: 95%; /* Puedes ajustar la altura según sea necesario */
 }

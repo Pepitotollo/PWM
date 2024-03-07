@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="tocar crear puja">
+    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="borrar cosas que sobraban">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Categoria/Categoria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Categoria/Categoria.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/nav/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section.html" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709551760852</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modificar">
+      <option name="closed" value="true" />
+      <created>1709802614073</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709802614073</updated>
+    </task>
+    <task id="LOCAL-00009" summary="borrar cosas que sobraban">
+      <option name="closed" value="true" />
+      <created>1709802790826</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709802790826</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +180,8 @@
     <MESSAGE value="modified" />
     <MESSAGE value="separar por directorios" />
     <MESSAGE value="tocar crear puja" />
-    <option name="LAST_COMMIT_MESSAGE" value="tocar crear puja" />
+    <MESSAGE value="modificar" />
+    <MESSAGE value="borrar cosas que sobraban" />
+    <option name="LAST_COMMIT_MESSAGE" value="borrar cosas que sobraban" />
   </component>
 </project>
