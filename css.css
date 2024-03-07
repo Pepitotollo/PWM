@@ -136,19 +136,6 @@
 
 
 
-/* maximo 1015 pixels de ancho*/
-@media screen and (max-width: 63.4375em) {
-    body{
-        font-family: Verdana, Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-    a{
-        text-decoration: none;
-        color: rgb(255, 0, 0);
 
-    }
-
-
-}
 
 
