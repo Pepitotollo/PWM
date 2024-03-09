@@ -1,0 +1,15 @@
+.item{
+    color: rgba(0, 0, 0, 0.6);
+    margin: 1%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    display: inline-block
+}
+.productos{
+    width: 80%;
+}
+.lista {
+    margin-top: 10%;
+    width: 50%;
+    float: right;
+}

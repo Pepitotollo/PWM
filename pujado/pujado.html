@@ -1,0 +1,57 @@
+<html lang="es">
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an HTML5 example">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+
+    <script src="/PWM/xlu-include-file.js"></script>
+
+    <link href="/PWM/header/header.css" rel="stylesheet">
+    <link href="/PWM/css.css" rel="stylesheet">
+    <link href="/PWM/pujado/pujado.css" rel="stylesheet">
+    <link href="/PWM/lista_pujas/lista_pujas.css" rel="stylesheet">
+
+    <link href="/PWM/footer/footer.css" rel="stylesheet">
+
+
+    <title>PuM!</title>
+</head>
+<body>
+<header xlu-include-file="/PWM/header/header.html"><!--header-->
+</header>
+
+<main>
+    <div id ="izquierda">
+        <div id="prod">Productos Pujados</div>
+        <div id="eliminar">Eliminar productos</div>
+        <a href="#" class ="ingresar">Ingresar</a>
+    </div>
+    <div id="derecha">
+        <input class="money" type="number" size="5" placeholder="Saldo:">
+        <ul class = productos xlu-include-file="/PWM/lista_pujas/lista_pujas.html"></ul>
+        <input class="money" type="number" size="5" placeholder="Coste total:">
+
+    </div>
+
+</main>
+
+<footer xlu-include-file="/PWM/footer/footer.html">
+    <!--
+    <nav id="navFooter">
+      <a class="buttonFooter" href="#">Acerca de</a>
+      <a class="buttonFooter" href="#">Contáctanos</a>
+      <a class="buttonFooter" href="#">Polítca de Privacidad</a>
+    </nav>
+    -->
+</footer>
+
+<script>
+
+    xLuIncludeFile();
+
+</script>
+</body>
+</html>
