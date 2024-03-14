@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="borrar cosas que sobraban">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,9 @@
         <option name="url" value="https://github.com/Pepitotollo/PWM.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -96,6 +100,9 @@
       <workItem from="1708943585473" duration="2653000" />
       <workItem from="1709196620748" duration="5283000" />
       <workItem from="1710145858234" duration="23000" />
+      <workItem from="1710153450952" duration="1407000" />
+      <workItem from="1710252635599" duration="18000" />
+      <workItem from="1710406266901" duration="3590000" />
     </task>
     <task id="LOCAL-00001" summary="añadir secccion 1">
       <option name="closed" value="true" />
@@ -169,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709802790826</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="borrar cosas que sobraban">
+      <option name="closed" value="true" />
+      <created>1710153659817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710153659818</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
