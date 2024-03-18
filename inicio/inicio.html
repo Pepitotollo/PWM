@@ -20,16 +20,16 @@
       form.addEventListener("input", checkval);
     }
     function validation(e){
-      var elem = e.target;
+      let elem = e.target;
       elem.style.background = '#FFDDDD';
 
      
     }
 
     function sendit(){
-      var elem = document.getElementById("email");
-      var elem2 = document.getElementById("contrasena");
-      var valid = form.checkValidity();
+        let elem = document.getElementById("email");
+        let elem2 = document.getElementById("contrasena");
+        let valid = form.checkValidity();
       
       if(valid){
 	 form.submit();

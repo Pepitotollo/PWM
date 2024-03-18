@@ -1,0 +1,39 @@
+{
+  "productos": [
+    {
+      "nombre": "Camiseta de algodón",
+      "descripcion": "Camiseta de algodón de alta calidad, disponible en varios colores y tallas.",
+      "precio": 19.99,
+      "imagen": "https://ejemplo.com/imagen_camiseta.jpg",
+      "categoria": "Ropa"
+    },
+    {
+      "nombre": "Zapatillas deportivas",
+      "descripcion": "Zapatillas deportivas ideales para correr o hacer ejercicio, con amortiguación y soporte para el pie.",
+      "precio": 49.99,
+      "imagen": "https://ejemplo.com/imagen_zapatillas.jpg",
+      "categoria": "Calzado"
+    },
+    {
+      "nombre": "Mochila resistente al agua",
+      "descripcion": "Mochila espaciosa y resistente al agua, ideal para llevar tus pertenencias de forma segura en tus aventuras al aire libre.",
+      "precio": 39.99,
+      "imagen": "https://ejemplo.com/imagen_mochila.jpg",
+      "categoria": "Accesorios"
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "correo": "juan@example.com",
+      "contraseña": "clave123"
+    },
+    {
+      "nombre": "María",
+      "apellido": "García",
+      "correo": "maria@example.com",
+      "contraseña": "password456"
+    }
+  ]
+}
