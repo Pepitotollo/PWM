@@ -1,11 +1,11 @@
 {
   "productos": [
     {
-      "nombre": "Camiseta de algodón",
-      "descripcion": "Camiseta de algodón de alta calidad, disponible en varios colores y tallas.",
-      "precio": 19.99,
+      "nombre": "Camiseta del Madrid",
+      "descripcion": "Camiseta de del real madrid sin nombre, disponible en talla M.",
+      "precio": 70.99,
       "imagen": "https://ejemplo.com/imagen_camiseta.jpg",
-      "categoria": "Ropa"
+      "categoria": "Deporte"
     },
     {
       "nombre": "Zapatillas deportivas",
