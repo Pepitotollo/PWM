@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="modificar" />
+    <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="modificar">
+      <change afterPath="$PROJECT_DIR$/Producto/Producto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producto/Producto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mostrar_categorias/funciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_datos.json" beforeDir="false" afterPath="$PROJECT_DIR$/base_datos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coger_datos.js" beforeDir="false" afterPath="$PROJECT_DIR$/coger_datos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.css" beforeDir="false" afterPath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.html" beforeDir="false" afterPath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +61,9 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Categoria.html.executor": "Run",
+    "JavaScript Debug.Producto.html.executor": "Run",
     "JavaScript Debug.crear_puja.html.executor": "Run",
+    "JavaScript Debug.estado_puja.html.executor": "Run",
     "JavaScript Debug.footer.html.executor": "Run",
     "JavaScript Debug.header.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",

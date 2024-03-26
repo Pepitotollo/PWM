@@ -110,6 +110,11 @@
         height: 20%;
         width: 100%
     }
+    .seccion img{
+        width: 100%; /* La imagen ocupa todo el ancho del div */
+        height: auto; /* Altura automática para mantener la proporción */
+        display: block; /* Mostrar la imagen como un bloque */
+    }
 
     .productos{
         background-color: #C4C4C4;

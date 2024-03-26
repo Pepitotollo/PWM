@@ -29,3 +29,7 @@
     font-size: 44px; /* Ajusta el tamaño de la fuente según tus preferencias */
     color: black;
 }
+.seccion{
+    height: 20%;
+    width: 100%
+}

@@ -4,7 +4,7 @@
   <meta name="keywords" content="HTML5, CSS3, JavaScript">
 
   <script src="/PWM/xlu-include-file.js"></script>
-
+  <script src="funciones.js"></script>
 
   <link href="/PWM/css.css" rel="stylesheet">
   <link href="/PWM/footer/footer.css" rel="stylesheet">
@@ -33,22 +33,25 @@
   </div>
 
 
-  <section class="seccion" xlu-include-file="/PWM/section/section.html">
+  <section class="seccion" id="seccion1" xlu-include-file="/PWM/section/section.html">
 
   </section>
 
-  <section class="seccion" xlu-include-file="/PWM/section/section.html">
+  <section class="seccion" id="seccion2" xlu-include-file="/PWM/section/section.html">
 
   </section>
 
-  <section class="seccion" xlu-include-file="/PWM/section/section.html">
+  <section class="seccion" id="seccion3" xlu-include-file="/PWM/section/section.html">
 
   </section>
 
   <script>
 
     xLuIncludeFile();
-
+    cargarModuloYAsignarIDs("seccion1", "espacio1");
+    cargarModuloYAsignarIDs("seccion2", "espacio2");
+    cargarModuloYAsignarIDs("seccion3", "espacio3");
+    rellenar_cuadrados();
 
   </script>
 </main>
