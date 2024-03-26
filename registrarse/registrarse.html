@@ -39,7 +39,7 @@
       var valid = form.checkValidity();
       if(valid){
 	 form.submit();
-         window.location.href = "./index.html";
+         window.location.href = "/PWM/index.html";
       }else if(nombre.validity.valueMissing){
          alert('No ha introducido el nombre');
       }else if(nombre.validity.patternMismatch){
@@ -60,7 +60,7 @@
 	 alert('No ha introducido la contraseña repetida');
       }else if(repContra.validity.tooShort){
          alert('La contraseña es demasiado corta');  
-      }else if(repContra.value != contra.value){
+      }else if(repContra.value !== contra.value){
 	 alert('No coinciden las contraseñas introducidas');
       }else if(numTelf.validity.valueMissing){
 	 alert('No ha introducido el número de teléfono');
