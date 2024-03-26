@@ -2,6 +2,8 @@
     width: 25%;
     height: 100%; /* Ajusta la altura según sea necesario */
     background-color: #ccc;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 div.espacio img {
@@ -10,11 +12,17 @@ div.espacio img {
     height: 100%;
 }
 .texto{
-    margin-top: 75%;
+    position: absolute; /* Esto permite posicionar el div hijo en relación con su contenedor padre */
+    bottom: 0;
+    height: 33%;
     width: 100%;
-    background: black;
+    color: white;
+    background: rgba(0, 0, 0, 0.63);
+    white-space: pre-line;
 
 }
+
+
 .contenedor_sec{
     display: flex; /* Utiliza flexbox */
     justify-content: space-around; /* Distribuye uniformemente los elementos a lo largo del contenedor */

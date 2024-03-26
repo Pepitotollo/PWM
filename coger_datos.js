@@ -9,13 +9,12 @@ function rellenar_cuadrados () {
 
                     // Por ejemplo, para acceder a la lista de productos:
                     const productos = data.productos;
-                    console.log(productos);
 
                     // Para acceder a la lista de usuarios:
-                    const usuarios = data.usuarios;
+                    //const usuarios = data.usuarios;
                     //console.log(usuarios);
-                    var i=0;
-                    productos.forEach(productos => {
+                    //var i=0;
+                    /*productos.forEach(productos => {
                         const imagen = document.createElement('img');
                         imagen.src = productos.imagen
                         imagen.alt = productos.nombre
@@ -24,7 +23,27 @@ function rellenar_cuadrados () {
                         if(i==2){espacio1_div3.appendChild(imagen)}
                         i++;
 
-                    });
+                    });*/
+                    for (let i = 0; i < 3; i++) {
+
+                        let variable = "espacio1_div" + (i+1);
+                        variableValue = window[variable];
+                        variableValue.style.backgroundImage = `url(${productos[i].imagen})`;
+                        variableValue.style.position = "relative";
+                        variableValue.href = `https://www.google.com/?hl=es`;
+                        // Obtener el elemento contenedor
+                        //console.log(variableValue);
+                        const contenedor = document.getElementById(variable);
+                        // Crear un nuevo div
+                        const nuevoDiv = document.createElement('div');
+                        // Asignar clases, atributos, contenido, estilos, etc., según sea necesario
+                        nuevoDiv.className = 'texto'; // Agrega una clase al nuevo div
+                        nuevoDiv.textContent = productos[i].nombre +"\nPuja Actual: "+ productos[i].precio + "€"; // Agrega texto al nuevo div
+                        //nuevoDiv.style.backgroundColor = 'lightblue'; // Cambia el color de fondo del nuevo div
+                        // Agregar el nuevo div al contenedor
+                        contenedor.appendChild(nuevoDiv);
+                    }
+
 
 
             })
