@@ -4,21 +4,21 @@
       "nombre": "Camiseta del Madrid",
       "descripcion": "Camiseta de del real madrid sin nombre, disponible en talla M.",
       "precio": 70.99,
-      "imagen": "https://ejemplo.com/imagen_camiseta.jpg",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Audi_R8_-_Flickr_-_Alexandre_Pr%C3%A9vot_%28109%29_%28cropped%29.jpg",
       "categoria": "Deporte"
     },
     {
       "nombre": "Zapatillas deportivas",
       "descripcion": "Zapatillas deportivas ideales para correr o hacer ejercicio, con amortiguación y soporte para el pie.",
       "precio": 49.99,
-      "imagen": "https://ejemplo.com/imagen_zapatillas.jpg",
+      "imagen": "/images/inicio.png",
       "categoria": "Calzado"
     },
     {
       "nombre": "Mochila resistente al agua",
       "descripcion": "Mochila espaciosa y resistente al agua, ideal para llevar tus pertenencias de forma segura en tus aventuras al aire libre.",
       "precio": 39.99,
-      "imagen": "https://ejemplo.com/imagen_mochila.jpg",
+      "imagen": "/images/inicio.png",
       "categoria": "Accesorios"
     }
   ],

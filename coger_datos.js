@@ -9,15 +9,24 @@ function rellenar_cuadrados () {
 
                     // Por ejemplo, para acceder a la lista de productos:
                     const productos = data.productos;
-                    //console.log(productos);
+                    console.log(productos);
 
                     // Para acceder a la lista de usuarios:
                     const usuarios = data.usuarios;
                     //console.log(usuarios);
+                    var i=0;
+                    productos.forEach(productos => {
+                        const imagen = document.createElement('img');
+                        imagen.src = productos.imagen
+                        imagen.alt = productos.nombre
+                        if(i==0){espacio1_div1.appendChild(imagen)}
+                        if(i==1){espacio1_div2.appendChild(imagen)}
+                        if(i==2){espacio1_div3.appendChild(imagen)}
+                        i++;
 
-                    for (let i = 1; i <= 5; i++) {
-                            console.log(i);
-                    }
+                    });
+
+
             })
             .catch(error => console.error('Error al cargar el archivo JSON:', error));
 }

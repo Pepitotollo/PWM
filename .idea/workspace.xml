@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="borrar cosas que sobraban">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_datos.json" beforeDir="false" afterPath="$PROJECT_DIR$/base_datos.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coger_datos.js" beforeDir="false" afterPath="$PROJECT_DIR$/coger_datos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section/section.html" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xlu-include-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/xlu-include-file.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -64,9 +64,8 @@
     "JavaScript Debug.inicio.html.executor": "Run",
     "JavaScript Debug.mostrar_categorias.html.executor": "Run",
     "JavaScript Debug.nav.html.executor": "Run",
-    "JavaScript Debug.pujado.html.executor": "Run",
     "JavaScript Debug.registrarse.html.executor": "Run",
-    "Node.js.coger_datos.js.executor": "Run",
+    "JavaScript Debug.section.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -104,13 +103,6 @@
       <workItem from="1708600017476" duration="1280000" />
       <workItem from="1708943585473" duration="2653000" />
       <workItem from="1709196620748" duration="5283000" />
-      <workItem from="1710145858234" duration="23000" />
-      <workItem from="1710153450952" duration="1407000" />
-      <workItem from="1710252635599" duration="18000" />
-      <workItem from="1710406266901" duration="3590000" />
-      <workItem from="1710433061621" duration="77000" />
-      <workItem from="1710758603327" duration="4162000" />
-      <workItem from="1711010267097" duration="4842000" />
     </task>
     <task id="LOCAL-00001" summary="añadir secccion 1">
       <option name="closed" value="true" />
@@ -184,54 +176,11 @@
       <option name="project" value="LOCAL" />
       <updated>1709802790826</updated>
     </task>
-    <task id="LOCAL-00010" summary="borrar cosas que sobraban">
-      <option name="closed" value="true" />
-      <created>1710153659817</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1710153659818</updated>
-    </task>
-    <task id="LOCAL-00011" summary="borrar cosas que sobraban">
-      <option name="closed" value="true" />
-      <created>1710433096445</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1710433096445</updated>
-    </task>
-    <task id="LOCAL-00012" summary="borrar cosas que sobraban">
-      <option name="closed" value="true" />
-      <created>1710433125727</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1710433125727</updated>
-    </task>
-    <task id="LOCAL-00013" summary="borrar cosas que sobraban">
-      <option name="closed" value="true" />
-      <created>1710761578173</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1710761578173</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadir secccion 1" />
