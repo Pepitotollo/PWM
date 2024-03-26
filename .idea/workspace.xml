@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="borrar cosas que sobraban">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coger_datos.js" beforeDir="false" afterPath="$PROJECT_DIR$/coger_datos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section/section.html" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xlu-include-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/xlu-include-file.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Categoria.html.executor": "Run",
-    "JavaScript Debug.crear_puja.html.executor": "Run",
-    "JavaScript Debug.footer.html.executor": "Run",
-    "JavaScript Debug.header.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.inicio.html.executor": "Run",
-    "JavaScript Debug.mostrar_categorias.html.executor": "Run",
-    "JavaScript Debug.nav.html.executor": "Run",
-    "JavaScript Debug.pujado.html.executor": "Run",
-    "JavaScript Debug.registrarse.html.executor": "Run",
-    "Node.js.coger_datos.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Categoria.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.crear_puja.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.footer.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.inicio.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.mostrar_categorias.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.nav.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.pujado.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.registrarse.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.coger_datos.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\david\WebstormProjects\PWM\nav" />
@@ -110,7 +106,9 @@
       <workItem from="1710406266901" duration="3590000" />
       <workItem from="1710433061621" duration="77000" />
       <workItem from="1710758603327" duration="4162000" />
-      <workItem from="1711010267097" duration="4842000" />
+      <workItem from="1711010267097" duration="5534000" />
+      <workItem from="1711015834502" duration="43000" />
+      <workItem from="1711060191658" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="añadir secccion 1">
       <option name="closed" value="true" />
@@ -216,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710761578173</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="borrar cosas que sobraban">
+      <option name="closed" value="true" />
+      <created>1711015787382</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711015787382</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
