@@ -24,26 +24,29 @@ function rellenar_cuadrados () {
                         i++;
 
                     });*/
-                    for (let i = 0; i < 3; i++) {
+                    for (let j = 0; j < 3; j++) {
 
-                        let variable = "espacio1_div" + (i+1);
-                        variableValue = window[variable];
-                        variableValue.style.backgroundImage = `url(${productos[i].imagen})`;
-                        variableValue.style.position = "relative";
-                        variableValue.href = `https://www.google.com/?hl=es`;
-                        // Obtener el elemento contenedor
-                        //console.log(variableValue);
-                        const contenedor = document.getElementById(variable);
-                        // Crear un nuevo div
-                        const nuevoDiv = document.createElement('div');
-                        // Asignar clases, atributos, contenido, estilos, etc., según sea necesario
-                        nuevoDiv.className = 'texto'; // Agrega una clase al nuevo div
-                        nuevoDiv.textContent = productos[i].nombre +"\nPuja Actual: "+ productos[i].precio + "€"; // Agrega texto al nuevo div
-                        //nuevoDiv.style.backgroundColor = 'lightblue'; // Cambia el color de fondo del nuevo div
-                        // Agregar el nuevo div al contenedor
-                        contenedor.appendChild(nuevoDiv);
+                        for (let i = 0; i < 3; i++) {
+
+                            let variable = "espacio" + (j+1) + "_div" + (i + 1);
+                            console.log(variable);
+                            variableValue = window[variable];
+                            variableValue.style.backgroundImage = `url(${productos[i].imagen})`;
+                            variableValue.style.position = "relative";
+                            variableValue.href = `https://www.google.com/?hl=es`;
+                            // Obtener el elemento contenedor
+                            //console.log(variableValue);
+                            const contenedor = document.getElementById(variable);
+                            // Crear un nuevo div
+                            const nuevoDiv = document.createElement('div');
+                            // Asignar clases, atributos, contenido, estilos, etc., según sea necesario
+                            nuevoDiv.className = 'texto'; // Agrega una clase al nuevo div
+                            nuevoDiv.textContent = productos[i].nombre + "\nPuja Actual: " + productos[i].precio + "€"; // Agrega texto al nuevo div
+                            //nuevoDiv.style.backgroundColor = 'lightblue'; // Cambia el color de fondo del nuevo div
+                            // Agregar el nuevo div al contenedor
+                            contenedor.appendChild(nuevoDiv);
+                        }
                     }
-
 
 
             })
