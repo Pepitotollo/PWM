@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2115f50-7e43-4d50-8e3e-e27383961127" name="Changes" comment="modificar">
-      <change afterPath="$PROJECT_DIR$/Producto/Producto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producto/Producto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mostrar_categorias/funciones.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_datos.json" beforeDir="false" afterPath="$PROJECT_DIR$/base_datos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coger_datos.js" beforeDir="false" afterPath="$PROJECT_DIR$/coger_datos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.css" beforeDir="false" afterPath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.html" beforeDir="false" afterPath="$PROJECT_DIR$/mostrar_categorias/mostrar_categorias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +66,7 @@
     "JavaScript Debug.nav.html.executor": "Run",
     "JavaScript Debug.pujado.html.executor": "Run",
     "JavaScript Debug.registrarse.html.executor": "Run",
-    "JavaScript Debug.section.html.executor": "Debug",
+    "JavaScript Debug.section.html.executor": "Run",
     "Node.js.coger_datos.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -120,6 +114,7 @@
       <workItem from="1711010267097" duration="5534000" />
       <workItem from="1711015834502" duration="43000" />
       <workItem from="1711060191658" duration="169000" />
+      <workItem from="1711546295053" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="añadir secccion 1">
       <option name="closed" value="true" />
@@ -249,7 +244,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711470141130</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="modificar">
+      <option name="closed" value="true" />
+      <created>1711487398560</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711487398563</updated>
+    </task>
+    <task id="LOCAL-00018" summary="modificar">
+      <option name="closed" value="true" />
+      <created>1711488691093</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711488691093</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modificar">
+      <option name="closed" value="true" />
+      <created>1711488711268</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711488711268</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
